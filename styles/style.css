@@ -5,7 +5,9 @@
     font-variation-settings:
         "wdth" 100;
 }
-
+body{
+    margin: 0;
+}
 /* shared style */
 .secondary-bg {
     background: #FFF8F3;
@@ -61,7 +63,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
